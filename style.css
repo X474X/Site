@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  background: hsl(220, 41%, 10%);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+nav {
+  height: 137px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+}
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.logo-wrapper span {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.jump-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 98px;
+}
+.jump-wrapper span {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 0.5s;
+  padding-bottom: 2px;
+}
+
+.jump-wrapper span:hover {
+  color: dimgrey;
+}
+
+.media-wrapper img:hover {
+  filter: invert(0.4);
+}
+
+.media-wrapper {
+  display: flex;
+  gap: 29px;
+}
+.media-wrapper img {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.home {
+  padding-left: 192px;
+  padding-top: 294px;
+  display: flex;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  width: 1051px;
+  padding-top: 100px;
+}
+
+.home-text span {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.home-text p {
+  padding-left: 62px;
+  margin-top: 30px;
+  color: #bcbcbc;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home-text button {
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 50% auto;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width: 280px;
+  height: 80px;
+  border-radius: 83px;
+  border: none;
+  cursor: pointer;
+  margin-top: 73px;
+  margin-left: 47px;
+}
+
+.home-text button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.brick {
+}
