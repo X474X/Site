@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pol's web site</title>
+    <title>Personal web site</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -12,12 +12,12 @@
     <nav>
       <div class="logo-wrapper">
         <img
-          width="47.58px"
-          height="47.58px"
-          src="https://img.icons8.com/stickers/100/my-computer.png"
-          alt="my-computer"
+          width="47.58"
+          height="47.58"
+          src="https://img.icons8.com/pastel-glyph/64/web-account--v1.png"
+          alt=""
         />
-        <span>My computer</span>
+        <span></span>
       </div>
       <div class="jump-wrapper">
         <span class="projects">Projects </span>
@@ -25,18 +25,26 @@
         <span class="info">About me</span>
       </div>
       <div class="media-wrapper">
-        <img
-          width="32"
-          height="32"
-          src="https://img.icons8.com/ios-filled/50/github.png"
-          alt="github"
-        />
-        <img
-          width="32"
-          height="32"
-          src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png"
-          alt="instagram-new--v1"
-        />
+        <a
+          href="https://www.figma.com/file/JbKnNrMm9FRggSjG45bW4w/frontend-web-developer-portfolio-(Community)?node-id=0%3A1&mode=dev"
+          target="_blank"
+        >
+          <img
+            width="32"
+            height="32"
+            src="https://img.icons8.com/ios-filled/50/github.png"
+            alt="github"
+          />
+        </a>
+
+        <a href="https://www.instagram.com/st.ef.paul/" target="_blank">
+          <img
+            width="32"
+            height="32"
+            src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png"
+            alt="instagram-new--v1"
+          />
+        </a>
         <img
           width="32"
           height="32"
@@ -48,14 +56,117 @@
 
     <section class="home">
       <div class="home-text">
-        <span class="">Lorem ipsum dolor sit amet</span>
+        <span class="">Want to know more about me?</span>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          I am a 17 year old highschooler that likes the "magic" behind
+          computers and coding in general. I dont have much experience in this
+          domain but I am eager to learn new things every day.
         </p>
-        <button class="begin">See projects</button>
+        <!-- <button class="begin">See projects</button> -->
       </div>
       <img src="./Images/bricks.png" alt="" class="brick" />
+    </section>
+
+    <section class="projects">
+      <h1>Projects</h1>
+      <div class="cards-wrapper">
+        <div class="project-wrapper">
+          <img src="./Images/Ferma.png" alt="poza proiect" />
+          <h4>Name Project</h4>
+          <hr />
+          <p class="project-info-wrapper">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>
+            <a
+              href="https://x474x.github.io/ferma-lui-nechifor/"
+              target="_blank"
+              >Look it up</a
+            >
+          </button>
+        </div>
+
+        <div class="project-wrapper">
+          <img src="./Images/Te pui cu blondele.png" alt="poza proiect" />
+          <h4>Name Project</h4>
+          <hr />
+          <p class="project-info-wrapper">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>
+            <a
+              href="https://x474x.github.io/te-pui-cu-blondele/"
+              target="_blank"
+              >Look it up</a
+            >
+          </button>
+        </div>
+
+        <div class="project-wrapper">
+          <img src="./Images/Hangman.png" alt="poza proiect" />
+          <h4>Name Project</h4>
+          <hr />
+          <p class="project-info-wrapper">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>
+            <a href="https://x474x.github.io/The-Hangman/" target="_blank"
+              >Look it up</a
+            >
+          </button>
+        </div>
+
+        <div class="project-wrapper">
+          <img src="./Images/Form.png" alt="poza proiect" />
+          <h4>Name Project</h4>
+          <hr />
+          <p class="project-info-wrapper">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>
+            <a href="https://x474x.github.io/Form-Validation/" target="_blank"
+              >Look it up</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tehnologies">
+      <h1>Technologies</h1>
+      <div class="tehnologies-wrapper">
+        <div class="tehnologies-container">
+          <div class="tehnologies-text">
+            <span class="coding">Html</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="progress">
+            <div class="html-bar"></div>
+          </div>
+        </div>
+        <div class="tehnologies-container">
+          <div class="tehnologies-text">
+            <span class="coding">CSS</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="progress">
+            <div class="css-bar"></div>
+          </div>
+        </div>
+        <div class="tehnologies-container">
+          <div class="tehnologies-text">
+            <span class="coding">Javascript</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="progress">
+            <div class="js-bar"></div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
