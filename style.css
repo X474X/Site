@@ -271,6 +271,134 @@ h1 {
   border-radius: 83px;
   background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
 }
+
+.additional {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  height: 226px;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-left: 108px;
+}
+
+li {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about {
+  margin-top: 329px;
+  margin-left: 142px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.about h1 {
+  margin-left: 50px;
+}
+
+.about-me-wrapper {
+  display: flex;
+  gap: 53px;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  width: 347px;
+  gap: 15px;
+}
+
+.year {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.shapes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.line-right {
+  height: 12px;
+  width: 65%;
+  background-color: white;
+  position: absolute;
+  right: -53px;
+}
+
+.line-left {
+  height: 12px;
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+
+.about-me-container p {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  margin: 345px 260px 80px 259px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email p {
+  color: #fff;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.email span {
+  color: #fff;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 /* .home-text button {
   background-image: linear-gradient(
     to right,
