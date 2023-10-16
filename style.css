@@ -9,6 +9,7 @@
 body {
   width: 100%;
   background: hsl(220, 41%, 10%);
+  transition: all 1s;
 }
 
 body::-webkit-scrollbar {
