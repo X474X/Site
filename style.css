@@ -6,12 +6,6 @@
   font-family: sans-serif;
 }
 
-@media only screen and (max-width: 500px) {
-  .home-text span {
-    color: red;
-  }
-}
-
 body {
   width: 100%;
   background: hsl(220, 41%, 10%);
@@ -422,7 +416,17 @@ footer {
   line-height: normal;
 }
 
-@media only screen and (max-width: 500px) {
+/* Phone Media Control */
+
+@media only screen and (max-width: 375px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
   body {
     padding: 10px;
   }
@@ -437,34 +441,39 @@ footer {
 
   .home {
     padding-left: 20px;
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   .home-text {
-    width: 100%;
+    width: 200px;
+    height: 500px;
   }
 
   .home-text span {
-    font-size: 32px;
+    font-size: 20px;
   }
 
   .home-text p {
     padding-left: 10px;
     margin-top: 10px;
-    font-size: 20px;
-    color: red;
+    font-size: 10px;
   }
 
   .brick {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 100px;
+    top: 130px;
     width: 300px;
   }
 
   .projects {
     padding-left: 20px;
-    /* padding-top: 10px; */
+    padding-top: 0px;
+    display: flex;
+  }
+
+  .projects h1 {
+    bottom: 0px;
   }
 
   h1 {
@@ -474,6 +483,7 @@ footer {
   .cards-wrapper {
     padding-left: 10px;
     width: 100%;
+    align-items: center;
   }
 
   .project-wrapper {
@@ -484,6 +494,7 @@ footer {
   .project-wrapper img {
     width: 100%;
     height: auto;
+    text-align: center;
   }
 
   .project-wrapper h4 {
