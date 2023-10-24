@@ -415,14 +415,92 @@ footer {
   font-weight: 600;
   line-height: normal;
 }
-
+.button-wrapper {
+  display: none;
+}
+.menu-list {
+  display: none;
+}
 /* Phone Media Control */
 
 @media only screen and (max-width: 500px) {
   body {
     padding: 10px;
   }
+  .logo-wrapper img {
+    width: 30px;
+    height: 30px;
+    /* display: none; */
+  }
+  .jump-wrapper {
+    display: none;
+  }
+  .media-wrapper {
+    display: none;
+  }
+  nav {
+    height: 100px;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: fixed;
+  }
+  .menu-list {
+    position: absolute;
+    background-color: hsl(220, 41%, 10%);
+    height: 130px;
+    width: 100%;
+    left: -10px;
+    top: 90px;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+  .menu-list li {
+    list-style: none;
+  }
+  .menu-list li span {
+    font-size: 18px;
+  }
+  .button-wrapper {
+    background-color: hsl(220, 41%, 10%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    display: inherit;
+  }
+  .line-2 {
+    background-color: white;
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+  }
+  .line-1 {
+    background-color: white;
+    width: 35%;
+    height: 1px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+  }
 
+  .line-3 {
+    background-color: white;
+    width: 35%;
+    height: 1px;
+    position: absolute;
+    top: 64%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+  }
   .container {
     width: 100%;
   }
@@ -434,6 +512,7 @@ footer {
   .home {
     padding-left: 20px;
     padding-top: 80px;
+    height: 70vh;
   }
 
   .home-text {
@@ -453,19 +532,19 @@ footer {
 
   .brick {
     position: absolute;
-    left: 100px;
+    right: -10px;
     top: 130px;
     width: 300px;
   }
 
   .projects {
-    padding-left: 20px;
+    width: 100%;
+    padding-left: 0px;
     padding-top: 0px;
-    display: flex;
   }
 
   .projects h1 {
-    bottom: 0px;
+    padding-left: 20px;
   }
 
   h1 {
@@ -473,14 +552,15 @@ footer {
   }
 
   .cards-wrapper {
-    padding-left: 10px;
+    padding: 0px 20px;
     width: 100%;
-    align-items: center;
+    gap: 60px;
   }
 
   .project-wrapper {
     width: 100%;
     height: auto;
+    gap: 10px;
   }
 
   .project-wrapper img {
@@ -495,7 +575,7 @@ footer {
   }
 
   .project-wrapper hr {
-    width: 100px;
+    width: 100%;
     height: 2px;
     margin-top: 10px;
   }
@@ -516,16 +596,23 @@ footer {
   }
 
   .tehnologies {
-    margin-top: 100px;
+    margin-top: 0px;
     padding-left: 20px;
+    gap: 50px;
   }
 
   .tehnologies-wrapper {
-    gap: 10px;
+    gap: 20px;
+    padding-left: 0;
+  }
+
+  .tehnologies-wrapper span {
+    font-size: 16px;
   }
 
   .tehnologies-container {
     width: 100%;
+    gap: 7px;
   }
 
   .tehnologies-text {
@@ -533,7 +620,7 @@ footer {
   }
 
   .bar {
-    font-size: 16px;
+    font-size: 12px;
     padding-right: 10px;
   }
 
@@ -546,21 +633,21 @@ footer {
   }
 
   .progress {
-    height: 10px;
+    height: 15px;
   }
 
   .html-bar,
   .css-bar,
   .js-bar {
-    height: 10px;
+    height: 15px;
   }
 
   .additional {
-    gap: 10px;
+    gap: 15px;
   }
 
   h3 {
-    font-size: 28px;
+    font-size: 23px;
   }
 
   ul {
@@ -569,12 +656,13 @@ footer {
   }
 
   li {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .about {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 20px;
+    padding-top: 50px;
   }
 
   .about h1 {
@@ -609,7 +697,7 @@ footer {
   }
 
   .about-me-container p {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   footer {
@@ -618,7 +706,7 @@ footer {
 
   .email p,
   .email span {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
