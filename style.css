@@ -418,15 +418,7 @@ footer {
 
 /* Phone Media Control */
 
-@media only screen and (max-width: 375px) {
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 15px;
-    font-family: sans-serif;
-  }
-
+@media only screen and (max-width: 500px) {
   body {
     padding: 10px;
   }
@@ -445,18 +437,18 @@ footer {
   }
 
   .home-text {
-    width: 200px;
+    width: 80%;
     height: 500px;
   }
 
   .home-text span {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .home-text p {
     padding-left: 10px;
-    margin-top: 10px;
-    font-size: 10px;
+    margin-top: 30px;
+    font-size: 20px;
   }
 
   .brick {
