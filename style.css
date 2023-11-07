@@ -9,6 +9,7 @@ body {
   width: 100%;
   background: hsl(220, 41%, 10%);
   transition: all 1s;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -424,24 +425,7 @@ footer {
   display: none;
 }
 
-/* Tablet Media Control */
-
-/* @media only screen and (max-width: 820px) {
-  html {
-    width: 100vw;
-  }
-  body {
-  }
-
-  .brick {
-    position: absolute;
-    right: 0;
-    bottom: -60px;
-  }
-} */
-
 /* Phone Media Control */
-
 @media only screen and (max-width: 500px) {
   body {
     padding: 10px;
@@ -793,5 +777,109 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+}
+
+/* Tablet Media Control */
+
+@media only screen and (max-width: 820px) {
+  nav {
+    padding: 0px 30px;
+  }
+  .jump-wrapper {
+    align-items: center;
+    gap: 26px;
+  }
+  .link {
+    font-size: 20px !important;
+  }
+  .home {
+    padding-left: 30px;
+    padding-top: 200px;
+  }
+
+  .home-text span {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home-text p {
+    padding-left: 42px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .brick {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 500px;
+  }
+
+  .projects {
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tehnologies {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  .tehnologies-wrapper {
+    padding-left: 0px;
+    gap: 30px;
+  }
+  .tehnologies-container {
+    width: 95%;
+    gap: 10px;
+  }
+  .coding {
+    font-size: 26px;
+  }
+  .additional ul {
+    padding-left: 40px;
+  }
+  .additional ul li {
+    font-size: 24px;
+  }
+  .about {
+    margin: 0px;
+  }
+  .about h1 {
+    font-size: 55px;
+  }
+  .about-me-wrapper {
+    gap: 10px;
+  }
+  .year {
+    font-size: 30px;
+  }
+  .about-me-container p {
+    font-size: 25px;
+  }
+  footer {
+    margin: 200px 10px 0px 20px;
+    padding: 30px;
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  .email p {
+    font-size: 30px;
+  }
+  .email span {
+    font-size: 30px;
   }
 }
