@@ -68,6 +68,7 @@ button.addEventListener("click", () => {
 });
 
 for (let i = 0; i < PROJECTS.length; i++) {
+  console.log("da");
   const div = document.createElement("div");
   div.classList.add("project-wrapper");
   const image = document.createElement("img");
