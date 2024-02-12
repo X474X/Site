@@ -853,10 +853,11 @@ footer {
     font-size: 26px;
   }
   .additional ul {
+    margin-top: 20px;
     margin-bottom: 50px;
   }
   .additional ul li {
-    font-size: 24px;
+    font-size: 20px;
   }
   .about {
     margin: 0px;
