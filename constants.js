@@ -93,6 +93,14 @@ const PROJECTS = [
     purpose: "Learning to create HTML elements base on events.",
     link: "https://x474x.github.io/Tic-Tac-Toe/",
   },
+  {
+    image: "./Images/Ninja Run.png",
+    title: "Ninja-Run",
+    description:
+      " The ninja is stuck in the zombie realm. Help him escape it by killing zombies.",
+    purpose: "Learning to split JS code in module files and reuse it.",
+    link: "https://x474x.github.io/Ninja-Runner/",
+  },
 ];
 
 export default PROJECTS;
